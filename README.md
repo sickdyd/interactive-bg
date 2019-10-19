@@ -4,10 +4,6 @@
 
 This project was created to experiment with CSS box-shadow and transition.
 
-Works well on Chrome, but there are some issues on Firefox (a bit choppy).
-
-Please visit [my website](http://sugoi.online/interactive-bg/) to check a live version.
-
 No canvas, no WebGL or graphic libraries has been used.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
