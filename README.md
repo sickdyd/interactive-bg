@@ -1,6 +1,6 @@
 ## Information
 
-![Alt text](/src/shot.png?raw=true "Screenshot")
+![Alt text](/shot.png?raw=true "Screenshot")
 
 This project was created to experiment with CSS box-shadow and transition.
 
