@@ -2,12 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #181818;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +13,26 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.hive-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hex {
+  border-radius: 50%;
+  filter: blur(10px);
+  background-image: radial-gradient(#fff, #fbf);
+  box-shadow:
+    0 0 6vmax 3vmax #fff,
+    0 0 10vmax 6vmax #f0f,
+    0 0 14vmax 9vmax #0ff;
+  transition: all 1s ease-in;
+  opacity: 0;
+  user-select: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.hex-zoom {
+  opacity: 0.8;
 }
