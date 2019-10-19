@@ -2,9 +2,9 @@
 
 ![Alt text](/shot.png?raw=true "Screenshot")
 
-Done with CSS and ReactJS.
+Done with CSS and ReactJS. No canvas or graphic libraries were used.
 
-No canvas or graphic libraries were used.
+Sandbox: https://codesandbox.io/s/github/sickdyd/interactive-bg
 
 Download the repository and run `npm install` to install dependencies.
 
