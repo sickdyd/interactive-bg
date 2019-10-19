@@ -2,9 +2,15 @@
 
 ![Alt text](/shot.png?raw=true "Screenshot")
 
-This project was created to experiment with CSS box-shadow and transition.
+Done with CSS and ReactJS.
 
-No canvas, no WebGL or graphic libraries has been used.
+No canvas or graphic libraries were used.
+
+Download the repository and run `npm install` to install dependencies.
+
+Use `npm start` to run the project.
+
+Hover the mouse on the background to see the effect.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
