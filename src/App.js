@@ -4,8 +4,11 @@ import './App.css';
 
 function App() {
 
+  // The background is a grid of divs called hive.
   const [hive, setHive] = React.useState(createHiveBackground());
 
+  // Create a 10 x 10 grid of divs (I called them hex as hexagons of a bee hive).
+  // Returns an array containing the id, width and height of each hex.
   function createHiveBackground() {
     const h = [];
     for (let n = 0; n < 100; n++) {
@@ -19,6 +22,14 @@ function App() {
     return h;
   }
 
+  /*
+    Animate the event target element on hover by adding the class hex-zoom.
+    This function removes the class once 3000 ms are passed after the
+    mouse hovered the hex: this is done to allow the css transition to finish
+    before removing the class and transition back to the original status.
+
+    @param {event} e - event passed onMouseOver
+  */
   function startAnimation(e) {
 
     const i = e.target.id;
@@ -43,7 +54,6 @@ function App() {
         return e;
       }
     })
-
     setHive(tempHexes); 
   }
 
@@ -59,6 +69,7 @@ function App() {
                                   className={`hex ${hex.classes}`}
                                   style={{ width: hex.width, height: hex.height }}
                                   onMouseOver={(e)=>startAnimation(e)}
+                                  // added for mobile
                                   onTouchStart={(e)=>startAnimation(e)}
                                 />
         )}
