@@ -4,7 +4,7 @@
 
 Done with CSS and ReactJS. No canvas or graphic libraries were used.
 
-Sandbox: <a href="https://codesandbox.io/s/github/sickdyd/interactive-bg" target="_blank">link</a>
+Sandbox: <a target="_blank" href="https://codesandbox.io/s/github/sickdyd/interactive-bg" target="_blank">link</a>
 
 Download the repository and run `npm install` to install dependencies.
 
