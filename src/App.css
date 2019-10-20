@@ -23,10 +23,10 @@
   filter: blur(10px);
   background-image: radial-gradient(#fff, #fbf);
   box-shadow:
-    0 0 6vmax 3vmax #fff,
-    0 0 10vmax 6vmax #f0f,
-    0 0 14vmax 9vmax #0ff;
-  transition: all 1s ease-in;
+    0 0 6vw 3vw #fff,  /* inner white */
+    0 0 10vw 6vw #f0f, /* middle magenta */
+    0 0 14vw 9vw #0ff; /* outer cyan */
+  transition: opacity 3s ease-in;
   opacity: 0;
   user-select: none;
   outline: none;

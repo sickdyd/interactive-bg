@@ -2,13 +2,15 @@
 
 ![Alt text](/shot.png?raw=true "Screenshot")
 
-This project was created to experiment with CSS box-shadow and transition.
+Done with CSS and ReactJS. No canvas or graphic libraries were used.
 
-Works well on Chrome, but there are some issues on Firefox (a bit choppy).
+Sandbox: https://codesandbox.io/s/github/sickdyd/interactive-bg
 
-Please visit [my website](http://sugoi.online/interactive-bg/) to check a live version.
+Download the repository and run `npm install` to install dependencies.
 
-No canvas, no WebGL or graphic libraries has been used.
+Use `npm start` to run the project.
+
+Hover the mouse on the background to see the effect.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
