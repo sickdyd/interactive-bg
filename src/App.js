@@ -48,7 +48,7 @@ function App() {
             }
           })
           setHive(hexesWithoutClass);
-        }, 4000);
+        }, 1000);
         return e;
       } else {
         return e;
