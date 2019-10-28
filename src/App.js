@@ -5,7 +5,7 @@ import './App.css';
 function App() {
 
   // The background is a grid of divs called hive.
-  const [hive, setHive] = React.useState(createHiveBackground());
+  const [hive, setHive] = React.useState(()=>createHiveBackground(),[]);
 
   // Create a 10 x 10 grid of divs (I called them hex as hexagons of a bee hive).
   // Returns an array containing the id, width and height of each hex.
