@@ -2,6 +2,8 @@
 
 ![Alt text](/shot.png?raw=true "Screenshot")
 
+[Click here to view a demo.](https://sickdyd.github.io/interactive-bg/)
+
 Done with CSS and ReactJS. No canvas or graphic libraries were used.
 
 Sandbox: <a href="https://codesandbox.io/s/github/sickdyd/interactive-bg" target="_blank">link</a>
