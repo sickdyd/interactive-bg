@@ -4,7 +4,7 @@
 
 Done with CSS and ReactJS. No canvas or graphic libraries were used.
 
-Click here to view a demo: <a href="https://codesandbox.io/s/github/sickdyd/interactive-bg" target="_blank">link</a>
+Click here to view a demo (hover the mouse on the black bg to see the effect): <a href="https://codesandbox.io/s/github/sickdyd/interactive-bg" target="_blank">link</a>
 
 Download the repository and run `npm install` to install dependencies.
 
